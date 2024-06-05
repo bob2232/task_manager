@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = divise-width,        initial-scale=1">
+        <style>
+            body{
+                text-align: center;
+                margin: 50px;
+                padding: 50px;
+                background-color:rgb(226, 236, 255);
+            }
+
+            input{
+                width: 300px;
+                height: 30px;
+                margin: 20px;
+                font-size: large; 
+                border-radius: 10px; 
+                border-color: black ;
+                border-style: solid;             
+            }
+            #login_submit{
+                color: black;
+                background-color:rgb(0, 144, 205); 
+                font-size: large;
+                font-weight: bold;                
+            }
+
+            #login_submit:hover{
+                cursor: pointer;
+                background-color: rgb(60, 0, 255);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Welcome to taskmanager.com</h1>
+        <h2>Work smarter and organize your work <br>with Task Manager App</h2>
+        <!--<img id="img_home" src='images/project.jpg' alt="planning image">-->
+
+        <form action="login.py" method="post">
+            <h1>Sign in</h1>
+
+            <input type="email" id="username" name="username"       placeholder="Email" required><br>
+
+            <input type="password" id="password" name="password" placeholder="Password" required><br>
+
+            <input type="submit" id="login_submit" value="Sign In">
+
+            <p>Forgot Password? <a href="reset_password.html">Reset</a></p>
+
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,52 @@
+/*style for container*/
+#container{
+   margin: 10%;
+   margin-top: 10px;
+   padding: 20px;
+   /*to center container content (the card)*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   /*text-align: center;*/
+}
+/*style for card*/
+.card{
+   box-shadow: 0 4px 8px 0;
+   width: 40%;
+   background-color:beige;
+   /*align-items: center;*/
+   height: 100%;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   padding-left: 40px;
+   margin-left: 20px;  
+}
+
+/*style for labels*/
+label{
+   font-size: 18px;
+   /*font-weight: bold;*/
+   text-align: left;       
+}
+
+/*style for input*/
+input{
+   margin-bottom: 10px;
+   padding: 5px;
+   font-size: 16px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 90%;/*how long the input box on the page*/  
+     }
+
+#signup_submit{
+   background-color: blue;
+   border-radius: 20px;
+   text-align: center;
+   font-size: 18px;
+   font-weight:bolder;
+}
+#signup_submit:hover{
+   background-color: aqua;
+}
